@@ -4,7 +4,7 @@ import AuthorSelector from './components/AuthorSelector'
 function App() {
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div className='authors-container'>
       <h1>Author Selector</h1>
       <AuthorSelector />
     </div>
